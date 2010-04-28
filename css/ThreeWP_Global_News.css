@@ -1,0 +1,47 @@
+.aural-info
+{
+	display: none;
+}
+
+.border-single
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.bigp
+{
+	margin-bottom: 3em;
+}
+
+
+.i_text_preview
+{
+	margin: 10px;
+	border: solid black 1px;
+}
+
+tr.read .global_news_item_text
+{
+	display: none;
+}
+
+.global_news_item_title
+{
+	margin-bottom: 1em;
+}
+
+.global_news_item_text
+{
+	
+}
+
+tr.unread .global_news_item_title
+{
+	font-weight: bold;
+}

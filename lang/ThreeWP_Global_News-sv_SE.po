@@ -1,0 +1,227 @@
+# Translation of the WordPress plugin ThreeWP Global News 0.0.1 by Edward Hevlund.
+# Copyright (C) 2010 Edward Hevlund
+# This file is distributed under the same license as the ThreeWP Global News package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ThreeWP Global News 0.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ThreeWP_Global_News\n"
+"POT-Creation-Date: 2010-04-28 22:01+0200\n"
+"PO-Revision-Date: 2010-04-28 22:03+0100\n"
+"Last-Translator: Name <Email>\n"
+"Language-Team: ThreeWP <edward@mindreantre.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ThreeWP_Global_News.php:37
+#: ThreeWP_Global_News.php:103
+msgid "Global News"
+msgstr "Globala nyheter"
+
+#: ThreeWP_Global_News.php:110
+msgid "Edit news"
+msgstr "Redigera nyheter"
+
+#: ThreeWP_Global_News.php:114
+msgid "Add news"
+msgstr "Lägg till en nyhet"
+
+#: ThreeWP_Global_News.php:118
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ThreeWP_Global_News.php:122
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: ThreeWP_Global_News.php:136
+msgid "News has been read!"
+msgstr "Nyheterna har markerats som lästa!"
+
+#: ThreeWP_Global_News.php:144
+msgid "Mark this article and all below as read"
+msgstr "Markera den här artikeln och alla undertill som lästa"
+
+#: ThreeWP_Global_News.php:171
+#: ThreeWP_Global_News.php:273
+#: ThreeWP_Global_News.php:387
+msgid "Date"
+msgstr "Datum"
+
+#: ThreeWP_Global_News.php:172
+#: ThreeWP_Global_News.php:275
+#: ThreeWP_Global_News.php:388
+msgid "Text"
+msgstr "Text"
+
+#: ThreeWP_Global_News.php:203
+msgid "Click on the message text to <b>show</b> or <b>hide</b> the rest of the text."
+msgstr "Klicka på meddelandetexten för att <b>visa</b> eller <b>gömma</b> hela texten."
+
+#: ThreeWP_Global_News.php:220
+msgid "Items deleted!"
+msgstr "Artiklar borttagna!"
+
+#: ThreeWP_Global_News.php:239
+#: ThreeWP_Global_News.php:324
+msgid "Select all / none"
+msgstr "Välja alla / inga"
+
+#: ThreeWP_Global_News.php:244
+msgid "With selected news items"
+msgstr "Med de valda artiklarna"
+
+#: ThreeWP_Global_News.php:246
+msgid "Do nothing"
+msgstr "Gör inget"
+
+#: ThreeWP_Global_News.php:247
+msgid "Delete"
+msgstr "Ta bort"
+
+#: ThreeWP_Global_News.php:254
+msgid "Apply"
+msgstr "Utför"
+
+#: ThreeWP_Global_News.php:274
+msgid "Shown to"
+msgstr "Visas för"
+
+#: ThreeWP_Global_News.php:310
+msgid "News title"
+msgstr "Nyhetstitel"
+
+#: ThreeWP_Global_News.php:317
+msgid "News text"
+msgstr "Nyhetstext"
+
+#: ThreeWP_Global_News.php:329
+msgid "Show to site admins?"
+msgstr "Visa för site admins?"
+
+#: ThreeWP_Global_News.php:335
+msgid "Show to adminstrators?"
+msgstr "Visa för administratörer?"
+
+#: ThreeWP_Global_News.php:341
+msgid "Show to editors?"
+msgstr "Visa för redaktörer?"
+
+#: ThreeWP_Global_News.php:347
+msgid "Show to authors?"
+msgstr "Visa för författare?"
+
+#: ThreeWP_Global_News.php:353
+msgid "Show to contributors?"
+msgstr "Visa för medarbetare?"
+
+#: ThreeWP_Global_News.php:359
+msgid "Show to subscribers?"
+msgstr "Visa för prenumeranter?"
+
+#: ThreeWP_Global_News.php:366
+msgid "Preview news item"
+msgstr "Förhandsgranska nyhetsartikeln"
+
+#: ThreeWP_Global_News.php:372
+msgid "Save"
+msgstr "Spara"
+
+#: ThreeWP_Global_News.php:392
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: ThreeWP_Global_News.php:414
+msgid "You have to select at least one user role to show the news article to."
+msgstr "Du måste välja minst en användarroll att visa nyheten för."
+
+#: ThreeWP_Global_News.php:423
+msgid "News item created!"
+msgstr "Nyhetsartikeln skapad!"
+
+#: ThreeWP_Global_News.php:479
+msgid "Text with no HTML code will display with automatic line breaks."
+msgstr "Text utan HTML-kod visas med automatiskta radbrytningar."
+
+#: ThreeWP_Global_News.php:501
+msgid "Options saved!"
+msgstr "Inställningar sparade!"
+
+#: ThreeWP_Global_News.php:508
+msgid "Role to access Global News administration"
+msgstr "Användarroll som har tillgång till globala nyheters administrationsgränssnitt"
+
+#: ThreeWP_Global_News.php:515
+msgid "Message to display when user has unread messages"
+msgstr "Meddelande att visa när användaren har olästa nyheter"
+
+#: ThreeWP_Global_News.php:516
+msgid "The word LINK will be replaced with the link to the message page. The word MESSAGE will be the default message in the best available language."
+msgstr "Order LINK kommer att ersättas med länken till nyhetssidan. Ordet MESSAGE är standardmeddelandet på det mest passande språket."
+
+#: ThreeWP_Global_News.php:524
+msgid "Save options"
+msgstr "Spara inställningar"
+
+#: ThreeWP_Global_News.php:533
+msgid "Which role has access to the settings and uninstall tabs of Global News?"
+msgstr "Vilken användarroll har tillgång till inställningarna och avinstallationen av globala nyheter?"
+
+#: ThreeWP_Global_News.php:545
+msgid "The default value is: "
+msgstr "Standardvärdet är:"
+
+#: ThreeWP_Global_News.php:549
+msgid "Preview of current message"
+msgstr "Förhandsgranskning av nuvarande meddelandet"
+
+#: ThreeWP_Global_News.php:581
+msgid "You have new messages from the administrator!"
+msgstr "Du har nya globala nyheter att läsa!"
+
+#: ThreeWP_Global_News.php:624
+msgid "Site admins"
+msgstr "Site admins"
+
+#: ThreeWP_Global_News.php:625
+msgid "Administrators"
+msgstr "Administratörer"
+
+#: ThreeWP_Global_News.php:626
+msgid "Editors"
+msgstr "Redaktörer"
+
+#: ThreeWP_Global_News.php:627
+msgid "Authors"
+msgstr "Författare"
+
+#: ThreeWP_Global_News.php:628
+msgid "Contributors"
+msgstr "Medarbetare"
+
+#: ThreeWP_Global_News.php:629
+msgid "Subscribers"
+msgstr "Prenumeranter"
+
+#. Plugin Name of an extension
+msgid "ThreeWP Global News"
+msgstr "ThreeWP Globala Nyheter"
+
+#. Plugin URI of an extension
+msgid "http://mindreantre.se/threewp-global-news/"
+msgstr ""
+
+#. Description of an extension
+msgid "WP / WPMU plugin to display admin news to other users."
+msgstr ""
+
+#. Author of an extension
+msgid "Edward Hevlund"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.mindreantre.se"
+msgstr ""
+
