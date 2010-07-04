@@ -2,8 +2,8 @@
 /*                                                                                                                                                                                                                                                             
 Plugin Name: ThreeWP Global News
 Plugin URI: http://mindreantre.se/threewp-global-news/
-Description: WP / WPMU plugin to display admin news to other users. 
-Version: 1.0
+Description: (Network) plugin to display admin news to other users. 
+Version: 1.1
 Author: Edward Hevlund
 Author URI: http://www.mindreantre.se
 Author Email: edward@mindreantre.se

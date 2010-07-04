@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ThreeWP Global News 0.0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/ThreeWP_Global_News\n"
 "POT-Creation-Date: 2010-04-28 22:01+0200\n"
-"PO-Revision-Date: 2010-04-28 22:03+0100\n"
+"PO-Revision-Date: 2010-07-04 23:14+0100\n"
 "Last-Translator: Name <Email>\n"
 "Language-Team: ThreeWP <edward@mindreantre.se>\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr "Meddelande att visa när användaren har olästa nyheter"
 
 #: ThreeWP_Global_News.php:516
 msgid "The word LINK will be replaced with the link to the message page. The word MESSAGE will be the default message in the best available language."
-msgstr "Order LINK kommer att ersättas med länken till nyhetssidan. Ordet MESSAGE är standardmeddelandet på det mest passande språket."
+msgstr "Ordet LINK kommer att ersättas med länken till nyhetssidan. Ordet MESSAGE är standardmeddelandet på det mest passande språket."
 
 #: ThreeWP_Global_News.php:524
 msgid "Save options"

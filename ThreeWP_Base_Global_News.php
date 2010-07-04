@@ -2,12 +2,12 @@
 /**
  * Base class with some common functions.
  * 
- * Version 2010-02-28 23:40
+ * Version 2010-07-04 15:55
  */
 class ThreeWP_Base_Global_News
 {
 	protected $wpdb;							// Link to Wordpress' database class.
-	protected $isWPMU;							// Stores whether this blog is a WPMU blog.
+	protected $isNetwork;						// Stores whether this blog is a network blog.
 	protected $paths = array();					// Contains paths to the plugin and such. 
 	protected $options = array();				// The options this module uses. (optionName => defaultValue)
 
@@ -41,7 +41,7 @@ class ThreeWP_Base_Global_News
 	{
 		global $wpdb;
 		$this->wpdb = $wpdb;
-		$this->isWPMU = function_exists('is_site_admin');
+		$this->isNetwork = function_exists('is_site_admin');
 		
 		$this->paths = array(
 			'name' => get_class($this),
@@ -166,10 +166,6 @@ class ThreeWP_Base_Global_News
 	 */
 	protected function get_user_role()
 	{
-		if ($this->isWPMU)
-			if (is_site_admin())
-				return 'site_admin';
-				
 		foreach($this->roles as $role)
 			if (current_user_can($role['current_user_can']))
 				return $role['name'];
@@ -222,27 +218,15 @@ class ThreeWP_Base_Global_News
 	}
 	
 	/**
-	 * Adds a [site] option.
-	 */
-	protected function add_option($option, $value)
-	{
-		$option = $this->fixOptionName($option);
-		if ($this->isWPMU)
-			return add_site_option($option, $value);
-		else
-			return add_option($option, $value);
-	}
-	
-	/**
 	 * Gets a [site] option.
 	 */
-	protected function get_option($option, $default = null)
+	protected function get_option($option)
 	{
 		$option = $this->fixOptionName($option);
-		if ($this->isWPMU)
-			return get_site_option($option, $default);
+		if ($this->isNetwork)
+			return get_site_option($option);
 		else
-			return get_option($option, $default);
+			return get_option($option);
 	}
 	
 	/**
@@ -251,7 +235,7 @@ class ThreeWP_Base_Global_News
 	protected function update_option($option, $value)
 	{
 		$option = $this->fixOptionName($option);
-		if ($this->isWPMU)
+		if ($this->isNetwork)
 			update_site_option($option, $value);
 		else
 			update_option($option, $value);
@@ -263,7 +247,7 @@ class ThreeWP_Base_Global_News
 	protected function delete_option($option)
 	{
 		$option = $this->fixOptionName($option);
-		if ($this->isWPMU)
+		if ($this->isNetwork)
 			delete_site_option($option);
 		else
 			delete_option($option);
@@ -275,8 +259,7 @@ class ThreeWP_Base_Global_News
 	protected function register_options()
 	{
 		foreach($this->options as $option=>$value)
-			if ($this->get_option($option, null) === null)
-				$this->add_option($option, $value);
+			$this->update_option($option, $value);
 	}
 	
 	/**
