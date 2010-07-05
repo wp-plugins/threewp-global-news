@@ -1,14 +1,14 @@
 === ThreeWP Global News ===
-Tags: wp,wpmu,global,news,global news,admin news,messages,global message, global messages,admin message,admin messages,admin,news,messages
-Requires at least: 2.9.2
-Tested up to: 2.9.2
+Tags: wp,wpmu,network,global,news,global news,admin news,messages,global message, global messages,admin message,admin messages,admin,news,messages
+Requires at least: 3.0
+Tested up to: 3.0
 Stable tag: trunk
 
-WP / WPMU plugin to display admin news to other users.
+WP / network plugin to display admin news to other users.
 
 == Description ==
 
-WP / WPMU plugin to display admin news to other users. Several news items can be displayed at once.
+WP / network plugin to display admin news to other users. Several news items can be displayed at once.
 
 Can be used to display blogging tips and tricks for old and new users. Any new users will see all news as unread. 
 
@@ -22,7 +22,7 @@ Available in the following languages:
 == Installation ==
 
 1. Unzip and copy the zip contents (including directory) into the `/wp-content/plugins/` directory
-1. Activate the plugin (wpmu: activate sitewide) through the 'Plugins' menu in WordPress.
+1. Activate the plugin (network: activate networkwide) through the 'Plugins' menu in WordPress.
 
 == Screenshots ==
 
@@ -37,5 +37,7 @@ Available in the following languages:
 
 == Changelog ==
 
+= 1.1 =
+* Compatible with WP3
 = 1.0 =
 * Initial public release
